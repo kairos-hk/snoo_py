@@ -74,7 +74,7 @@ function App() {
               <div className={style.window_contents}>
                 <div className={style.content_title}>역할</div>
                 <div className="">
-                  <div className={style.window_part}>Frontend Developer</div>
+                  <div className={style.window_part}>Back-end Developer</div>
                   <div className={style.window_part}>Secure Expert</div>
                 </div>
               </div>
@@ -104,7 +104,7 @@ function App() {
               <div className={style.window_contents}>
                 <div className={style.content_title}>역할</div>
                 <div className="">
-                  <div className={style.window_part}>FullStack Developer</div>
+                  <div className={style.window_part}>Full-Stack Developer</div>
                   <div className={style.window_part}>Cloud Architect</div>
                   <div className={style.window_part}>Application Developer</div>
                 </div>
@@ -135,8 +135,8 @@ function App() {
               <div className={style.window_contents}>
                 <div className={style.content_title}>역할</div>
                 <div className="">
-                  <div className={style.window_part}>Frontend Developer</div>
-                  <div className={style.window_part}>Data Analyst</div>
+                  <div className={style.window_part}>Front-end Developer</div>
+                  <div className={style.window_part}>AI & Data Analyst</div>
                   <div className={style.window_part}>Embedded Engineer</div>
                   <div className={style.window_part}>Secure Expert</div>
                 </div>
@@ -189,7 +189,7 @@ function App() {
                 <div className="">
                   <div className={style.window_name}>김도희</div>
                   <a href="https://github.com/dya-only" target="_blank" className={style.window_github}>@yehyun207</a>
-                  <div className={style.window_about}>제발 일반적으로 바꿔..</div>
+                  <div className={style.window_about}>부산 상여자</div>
                 </div>
               </div>
 
@@ -237,7 +237,7 @@ function App() {
 
       <div className={style.sub_title}>Members</div>
       <div className={style.sub_info}>프로필 이미지를 클릭하면 상세 정보를 볼 수 있습니다.</div>
-      <div className={style.contain_contain}>
+      <div className={style.contain_contain}>≠–
         <div className={style.contain}>
           <div className={style.card}>
             <div className={style.img_contain}>
@@ -290,7 +290,7 @@ function App() {
           <div className={style.card}>
             <div className={style.img_contain}>
               <img className={style.card_img} src="https://avatars.githubusercontent.com/u/126975038?v=4" alt="" />
-              <div onClick={() => setProfileWindow('김도희')} className={style.card_info}>무성애자 디자이너</div>
+              <div onClick={() => setProfileWindow('김도희')} className={style.card_info}>디자인 노예</div>
             </div>
             <div className="">
               <div className={style.card_work}>Designer</div>
